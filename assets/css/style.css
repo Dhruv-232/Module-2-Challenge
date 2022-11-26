@@ -1,0 +1,48 @@
+/* CSS attributes for the entire website */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    width: 213px;
+    height: 100px;
+    background-color: rgb(91, 91, 213);
+    color: white;
+    font-size: 75px;
+    display: inline-block;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+    left: 550px;
+    font-size: xx-large;
+}
+
+.about-me h1 {
+    background-color: white;
+    color: orange;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.work h1 {
+    text-align: center;
+    color: orange;
+    font-size: xx-large;
+}
+img {
+    width: 100px;
+    height:100px;
+}
+
