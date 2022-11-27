@@ -8,16 +8,15 @@
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: rgb(188, 123, 2);
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
-    width: 213px;
-    height: 100px;
-    background-color: rgb(91, 91, 213);
     color: white;
-    font-size: 75px;
+    font-size: 55px;
     display: inline-block;
 }
 
@@ -25,8 +24,7 @@
     display: inline-block;
     margin-left: 25px;
     position: relative;
-    left: 550px;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .about-me h1 {
@@ -41,8 +39,41 @@
     color: orange;
     font-size: xx-large;
 }
-img {
-    width: 300px;
+.work img {
+    /* width: 300px; */
     height:300px;
 }
 
+.header img {
+    width: 150px;
+    height: 150px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: orange;
+}
+
+#first_img_div {
+    text-align: center;
+}
+
+#first_image {
+    width: 90%;
+    height: 456px;
+}
+
+#other_img_div {
+    text-align: center;
+}
+
+.project_img{
+    width: 43%
+}
+
+.unordered_list{
+    margin-top: 80px;
+}
+#header_div{
+    display: grid;
+}
