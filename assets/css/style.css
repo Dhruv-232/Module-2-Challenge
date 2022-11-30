@@ -24,7 +24,8 @@
     display: inline-block;
     margin-left: 25px;
     position: relative;
-    font-size: large;
+    font-size: xx-large;
+    top: 90px;
 }
 
 .about-me h1 {
@@ -76,4 +77,9 @@
 }
 #header_div{
     display: grid;
+}
+
+.contact p {
+    display: flex;
+    justify-content: space-between;
 }
