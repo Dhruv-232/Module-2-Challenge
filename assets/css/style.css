@@ -30,14 +30,14 @@
 
 .about-me h1 {
     background-color: white;
-    color: orange;
+    color: rgb(188, 123, 2);
     font-size: xx-large;
     text-align: center;
 }
 
 .work h1 {
     text-align: center;
-    color: orange;
+    color: rgb(188, 123, 2);
     font-size: xx-large;
 }
 .work img {
@@ -52,7 +52,7 @@
 
 .contact h1 {
     text-align: center;
-    color: orange;
+    color: rgb(188, 123, 2);
 }
 
 #first_img_div {
@@ -82,4 +82,14 @@
 .contact p {
     display: flex;
     justify-content: space-between;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 992px) {
+    #other_img_div {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
 }
