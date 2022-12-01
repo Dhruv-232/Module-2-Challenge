@@ -24,7 +24,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![portfolio demo](./assets/images/Screenshot(Challenge2).png)
 
 Link for the website:
-
+https://dhruv-232.github.io/Module-2-Challenge/
 
 Link for the GitHub repository:
 https://github.com/Dhruv-232/Module-2-Challenge
