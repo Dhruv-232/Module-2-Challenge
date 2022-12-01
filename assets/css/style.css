@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+/* CSS for the header of the website */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,12 +15,14 @@
     justify-content: space-between;
 }
 
+/* CSS for h1 inside the header */
 .header h1 {
     color: white;
     font-size: 55px;
     display: inline-block;
 }
 
+/* CSS for the unordered list in the header */
 .header ul li {
     display: inline-block;
     margin-left: 25px;
@@ -28,6 +31,13 @@
     top: 90px;
 }
 
+/* CSS for image in the header section */
+.header img {
+    width: 150px;
+    height: 150px;
+}
+
+/* CSS for h1 in the about me section in the header */
 .about-me h1 {
     background-color: white;
     color: rgb(188, 123, 2);
@@ -35,26 +45,33 @@
     text-align: center;
 }
 
+/* CSS for h1 in work section */
 .work h1 {
     text-align: center;
     color: rgb(188, 123, 2);
     font-size: xx-large;
 }
+
+/* CSS for image in the work section */
 .work img {
     /* width: 300px; */
     height:300px;
 }
 
-.header img {
-    width: 150px;
-    height: 150px;
-}
-
+/* CSS for h1 in the contact me section */
 .contact h1 {
     text-align: center;
     color: rgb(188, 123, 2);
 }
 
+/* CSS for paragraphs in contact section */
+.contact p {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+/* IDs for images in work section */
 #first_img_div {
     text-align: center;
 }
@@ -79,12 +96,7 @@
     display: grid;
 }
 
-.contact p {
-    display: flex;
-    justify-content: space-between;
-    font-size: x-large;
-}
-
+/* CSS for responsive web layout */
 @media screen and (max-width: 992px) {
     #other_img_div {
         display:flex;
